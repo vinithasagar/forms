@@ -1,0 +1,71 @@
+.v{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgba(247, 245, 242, 0.989);
+    margin-bottom: 0.05cm;
+    font-size: 17px;
+}
+.i{
+    font-size: 17px;
+    margin-bottom: 0.05cm;
+    border-radius: 15px;
+}
+.vinni{
+    height: 20px;
+    width: 200px;
+    border-radius: 15px;
+    background-color:rgba(247, 245, 242, 0.989);
+   
+}
+.inni{
+    
+    font-size: 17px;
+}
+.vintha{
+    margin-left: 0.10cm;
+}
+.preeti{
+    height: 20px;
+    width: 140px;
+    border-radius: 8px;
+    background-color: rgba(247, 245, 242, 0.989);
+    margin-bottom: 0.05cm;
+}
+.mm{
+    height: 25px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:rgba(247, 245, 242, 0.989);
+    margin-bottom: 0.05cm;
+}
+.maha{
+    height: 25px;
+    width: 160px;
+    border-radius: 10px;
+    background-color:rgba(247, 245, 242, 0.989);
+    margin-bottom: 0.05cm;
+}
+.aa{
+    height: 20px;
+    width: 200px;
+    background-color: rgba(247, 245, 242, 0.989);
+    margin-bottom: 0.05cm;
+    border-radius: 10px;
+}
+.p{
+    height: 40px;
+    width: 200px;
+    background-color:rgba(247, 245, 242, 0.989);
+    margin-bottom: 0.05cm;
+    border-radius: 10px;
+
+}
+#main{
+    border: 2px solid rgb(65, 14, 12);
+    padding: 50px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    height: 700px;
+    width: 400px;
+}

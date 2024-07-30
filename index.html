@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <center>
+        <h2 style="padding-right: 3cm;">Registration Form</h2>
+        </center>
+</header>
+
+<body style="padding-left:7cm; padding-right: 5cm;">
+    <div id="main">
+        <label class="i" for=" First"> First Name*:</label>
+        <input class="v" type="text" placeholder="First"><br><br>
+        <label class="i" for="Last"> Last Name* :</label>
+        <input class="v" type="text" placeholder="Last"><br><br>
+        
+        <label class="i" for=" Type">Email - Id* : <label>
+        <input class="v" type="text"type placeholder="@gamil.com"><br><br>
+        
+        <label class="i" for=" Type">Phone No* : </label>
+        <input class="v" type="Phone" placeholder="number"><br><br>
+        <label class="i" for="bday">Date-Of-Brith*:</label>
+        <input class="mm" type="date"id="bday"name="bday"/><br><br>
+        <label class="i" for="text">Gender*:</label>
+        <input class="vintha" type="radio" name="Gender">Male
+        <input class="vintha" type="radio" name="Gender">Female
+        <input class="vintha" type="radio" name="Gender">Others <br><br>
+        
+        <label class="i" for="type">Designation*:</label>
+        <select class="maha">
+            <option value="FSD">Student</option>
+            <option value="FSD">Employee</option>
+            <option value="DATA SCIENCE">Intern</option> 
+        </select><br><br>
+        <label class="i" for="type">Course Program*:</label>
+        <select class="mm">
+            <option value="FSD">c</option>
+            <option value="FSD">c++</option>
+            <option value="DATA SCIENCE">Ptyhon</option>
+            <option value="DATA SCIENCE">Java</option>
+            <option value="DATA SCIENCE">web development</option>
+        </select>
+        <br><br>
+        <label class="i" for=" First">Year of passing*:</label>
+        <input class="preeti" type="number"><br><br>
+        <label>Institute*:</label>
+        <input  class="v" type="text"><br><br>
+        <label class="i">Course Duration:</label>
+        <select  class="maha">
+            <option  value="3 months">3 months</option>
+            <option  value="6 months">6 months</option>
+        </select><br><br>
+        <label class="i" >Address*:</label>
+        <input class="p" type="text"><br><br>
+        <label >Do u want to change the course</label>
+        <input type="radio" name="yes" >yes
+        <input type="radio" name="no" >no <br><br>
+        <label>Skills*:</label><br>
+        <input class="vv" type="checkbox">C<br>
+        <input class="vv" type="checkbox">C++<br>
+        <input class="vv" type="checkbox">Python<br>
+        <input class="vv" type="checkbox">Java<br>
+        <center>
+        <input type="submit" onclick="alert('Successfully done')">
+       </center>
+
+     
+    </div>
+   
+</body>
+</html>
